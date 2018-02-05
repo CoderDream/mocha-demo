@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-02-04T03:25:22.204Z",
+    "end": "2018-02-04T03:25:22.214Z",
+    "duration": 10,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "15f08880-4c65-42e4-aa23-31a42491f5ec",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "042dfe44-145a-4469-82a0-74cebb2066e9",
+        "title": "加法函数的测试",
+        "fullFile": "/Users/tugenhua/个人demo/vue1204/mocha/demo2/test/add.test.js",
+        "file": "/test/add.test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "1 加 1 应该等于 2",
+            "fullTitle": "加法函数的测试 1 加 1 应该等于 2",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(add(1, 1)).to.be.equal(2);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "9aab949f-d348-409a-9c8a-632302953675",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "任何数加0应该等于自身",
+            "fullTitle": "加法函数的测试 任何数加0应该等于自身",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(add(1, 0)).to.be.equal(1);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "e21ecd16-93e0-4cff-8a8f-93cf34fa2e15",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "9aab949f-d348-409a-9c8a-632302953675",
+          "e21ecd16-93e0-4cff-8a8f-93cf34fa2e15"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 1,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
