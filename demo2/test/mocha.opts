@@ -1,2 +1,3 @@
 --recursive
---reporter tap 
+--reporter tap
+--require babel-core/register
